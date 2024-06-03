@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Raleway", "Sans serif";
+  background-color: #000000;
+}
+.bg-celeste {
+  background-color: #2196f3;
+}
+header {
+  font-size: 1rem;
+  & a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 200;
+  }
+}
+
+/* #menu-nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}  me afecta el menu de hamburguesa y lo tuve que quitar :(  */
+
+.menu-nav-links a {
+  margin: 5px;
+}
+
+.menu-hamburguesa-small {
+  max-width: 200px; /* Define el ancho máximo del menú de hamburguesa */
+}
+
+.bg-icons-quienesSomos {
+  background-color: #2196f3;
+  padding: 0.5rem;
+}
+
+/* TITULO UNICO -QUIENES SOMOS- */
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* TITULOS -DESTACADOS Y CONTACTO */
+.custom-title-h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+/* ESTILOS "CARDS" PERSONALIZADOS PARA SOBRESCRIBIR LOS ESTILOS DE BOOSTRAP YA QUE HAY UNA IMAGEN QUE ESTABA MAS GRANDE QUE LAS DEMAS */
+.card-img-top {
+  height: 13rem;
+  object-fit: cover;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: 200;
+}
+
+.card-text {
+  color: #ffff;
+  font-weight: 200;
+}
+
+.custom-card {
+  margin-bottom: 1rem;
+}
+
+/* ESTILOS SECCIÓN DESTACADO */
+.bg-secc-destacado {
+  background-color: #2196f3;
+  color: #ffff;
+}
+
+/* ESTILOS PARA EL IMPUT... */
+form {
+  color: #ffff;
+  & h2 {
+    text-align: center;
+  }
+}
+
+.color-button-enviar {
+  background-color: #2196f3;
+  color: #ffff;
+}
+
+.input-tamaño-mensaje {
+  height: 150px;
+}
+
+/* ESTILOS FOOTER */
+footer {
+  background-color: #2196f3;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  & h3 {
+    color: #ffff;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  & .iconos-footer i {
+    margin: 15px 15px;
+  }
+}
